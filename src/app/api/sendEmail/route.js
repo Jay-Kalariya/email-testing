@@ -8,8 +8,8 @@ export async function POST(request) {
         const transporter = nodemailer.createTransport({
             // service: 'zoho',
             host: 'smtp.gmail.com',
-            port: 465,
-            secure: true,
+            port: 587,
+            secure: false,
             auth: {
                 user: 'jaykalariya.humbee@gmail.com',
                 pass: "wecdoqzwxfcifkss"                                                                    
